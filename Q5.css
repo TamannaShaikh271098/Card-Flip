@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    background-color: rgb(21, 21, 47);
+}
+.card{
+    display: flex;
+    padding: 3px;
+}
+.image{
+    padding: 2px;
+    margin: 2px;
+}
+img{
+     border: 1px solid black;
+    filter: grey;
+    -webkit-filter: grayscale(1);
+}
+img:hover{
+    transform: scale(1.1);
+    filter: none;
+    z-index: 1;
+    -webkit-filter: grayscale(0);
+}
